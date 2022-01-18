@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.ttf");
+  }
+
+.icon {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.about {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.pfsettings {
+    right: 16px;
+    position: absolute;
+}
+
+.customnav {
+    width: 100%;
+    display: flex;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.regicon {
+    margin-top: 0px;
+    margin-right: 10px;
+}

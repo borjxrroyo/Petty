@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.ttf");
+  }
+
+.bginfo {
+    width: 100%;
+    height: fit-content;
+/*     background: -prefix-linear-gradient(left top, #ecf0f7, #e9f1f8);
+    background: linear-gradient(to bottom right, #e1e1e1, #ededed);
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(63, 63, 63, 0.46); */
+    margin-top: 10px;
+}
+
+.profilephoto {
+    width: 150px;
+    height: 150px;
+    border: 4.5px solid #fff;
+    border-radius: 200px;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(63, 63, 63, 0.46);
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.userinfo {
+    margin: auto;
+    /* height: 200px; */
+    width: fit-content;
+    /* position: absolute; */
+    display: flex;
+    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+    /* border: 2px solid blue; */
+}
+
+.username {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    /* border: 2px solid green; */
+}
+
+.userdata {
+    /* border: 2px solid green; */
+    width: fit-content;
+    margin-top: 9px;
+    /* border: 2px solid orange; */
+}
+
+.icon {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.field {
+    font-weight: bold;
+}
+
+.pfoptions {
+    /* border: 2px solid blue; */
+    float: right;
+    width: 60%;
+    /* padding-left: 0px; */
+    margin-top: 48px;
+}
+
+.pfoption {
+    float: right;
+    margin-top: 18px;
+}
+
+.rank {
+    margin-left: 20px;
+    text-transform: initial;
+}
+
+.verified {
+    color: #4caf50;
+}
+
+.global {
+    width: 85%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    height: fit-content;
+    /* border: 2px solid red; */
+}
+
+.side {
+    width: 25%;
+    /* border: 2px solid green; */
+    /* border: 2px solid red; */
+}
+
+.center {
+    /* border: 2px solid blue; */
+    width: 63%;
+    padding: 30px;
+    padding-top: 0px;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
+    right: 6%;
+    position: absolute;
+    display: block;
+}
+
+.about {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.posttitle {
+    font-weight: bold;
+}
+
+.postcarousel {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.infocarousel {
+    margin-top: 20px;
+}
+
+.phpostcarousel {
+    height: 340px;
+}
+
+.phprofcarousel {
+    height: 150px;
+}
+
+.separator {
+    border-top: 1px solid rgb(88, 88, 88);
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card-header-post {
+    background: linear-gradient(60deg, #666666, #404040);
+    width: 100%;
+    height: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(63, 63, 63, 0.46);
+}
+
+.post-content {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.post-title {
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+
+.post {
+    margin-top: 0px;
+}
+
+.post-text {
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.pfsettings {
+    right: 16px;
+    position: absolute;
+}
+
+.customnav {
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width: 1680px) {
+.mdata {
+    display: block;
+}
+}
+
+.details {
+    background-color: #454545;
+    text-transform: initial;
+    padding: 10px;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 2px 2px 0 rgba(126, 126, 126, 0.14), 0 3px 1px -2px rgba(126, 126, 126, 0.14), 0 1px 5px 0 rgba(126, 126, 126, 0.14);
+}
+
+.details:hover {
+    background-color: #2b2b2b;
+    text-transform: initial;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 2px 2px 0 rgba(78, 78, 78, 0.14), 0 3px 1px -2px rgba(78, 78, 78, 0.14), 0 1px 5px 0 rgba(78, 78, 78, 0.14);
+}
+
+.details:focus {
+    background-color: #1b1b1b;
+}
+
+.comments {
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: fit-content;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+.comment {
+    display: flex;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+.cmphoto {
+    width: fit-content;
+    height: fit-content;
+}
+
+.cmphotorounded {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.userdate {
+    height: 30px;
+    display: flex;
+}
+
+.txtcomment {
+    height: fit-content;
+}
+
+.cmdata {
+    margin-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
